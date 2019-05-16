@@ -30,7 +30,7 @@ Para compilar necesitaremos el siguiente comando:
 gcc tdf.c -lm
 ```
 
-Nota: La bandera "-lm" sirve para compilar la librería math.h
+**Nota**: La bandera "-lm" sirve para compilar la librería math.h
 
 ### Ejecucion
 Para ejecutar este programa se necesita pasarle f(x) como argumento 
@@ -45,11 +45,14 @@ Donde:
 - ./a.out es el ejecutable
 - 2,3,4,4 es el argumento del ejecutable y el programa lo entiende 
   como la funcion f(x) para que se realice la DFT
+  
+**Nota**: El argumento del ejecutable debe de ser una lista de numeros (sin límite) serparados
+por una **,** y sin espacios. 
 
 ### Resultados
 
 Despúes de ejecutar el programa se puede observar los resultados obtenidos
-  por el programa. Para el comando "./a.out 2,3,4,4", la salida es:
+  por el programa. Para el comando **./a.out 2,3,4,4**, la salida es:
   
 ```
 f(x) = {2, 3, 4, 4, }
