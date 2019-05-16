@@ -47,7 +47,7 @@ Donde:
   como la funcion f(x) para que se realice la DFT
   
 **Nota**: El argumento del ejecutable debe de ser una lista de numeros (sin límite) serparados
-por una **,** y sin espacios. 
+por una **','** y sin espacios. 
 
 ### Resultados
 
